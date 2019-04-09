@@ -10,3 +10,15 @@ body {
 h1 {
   padding: 20px 0px 10px 0px;
 }
+
+img {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.portfolio-item {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
