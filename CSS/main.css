@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background-image: url(images/DiegoEsparza-Glitchme-thumbnail.jpg);
+  background-image: url("/images/DiegoEsparza-Glitchme-thumbnail.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%
