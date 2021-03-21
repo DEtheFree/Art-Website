@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+      <style>
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        } </style>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <title>Diego Esparza</title>
   </head>
   <body>
+
     <h1>Diego Esparza</h1>
+
+    <div class="gallery">
+      <a target="_blank" href="portfolio.html">
+        <img src="images/Esparza_D_CompositeArt_Final.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+    <div class="desc">Portfolio</div>
+    </div>
+
     <a href="portfolio.html">Portfolio</a>
     <a href="statement.html">Artist Statement</a>
   </body>
