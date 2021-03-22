@@ -5,7 +5,7 @@
         div.gallery {
           margin: 5px;
           border: 1px solid #ccc;
-          float: left;
+         /* float: left;*/
           width: 180px;
         }
 
@@ -13,10 +13,18 @@
           border: 1px solid #777;
         }
 
+        div.center_container {
+          width: 75vw; 
+          /*veiw width*/
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+
         div.gallery img {
           width: 100%;
           height: auto;
-          display: inline;
+          /*display: inline;*/
         }
 
         div.desc {
@@ -29,8 +37,9 @@
 
         .responsive {
           padding: 0 6px;
-          float: left;
-          width: 24.99999%;
+          /*float: left;*/
+          /*width: 24.99999%;*/
+          display: inline-block;
         }
 
         @media only screen and (max-width: 700px) {
@@ -60,7 +69,8 @@
     <div class="background">
       <h1>Diego Esparza</h1>
 
-      <div class="responsive">
+      <div class="center_container">
+        <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="portfolio.html">
             <img src="images/Esparza_D_CompositeArt_Final.jpg" alt="Cinque Terre" width="600" height="400">
@@ -69,7 +79,7 @@
         </div>
       </div>
 
-      <div class="responsive">
+       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="statement.html">
             <img src="images/words.png" alt="Cinque Terre" width="600" height="400">
@@ -77,6 +87,10 @@
         <div class="desc">Artist Statement</div>
         </div>
       </div>
+
+      </div>
+
+     
     </div>
 
     
