@@ -1,1 +1,1 @@
-<li><a class="active" href="home.html">Home</a>
+<li><a class="active" href="index.html">Home</a>
