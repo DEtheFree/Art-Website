@@ -5,11 +5,11 @@ body {
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
-  background-image: url("../images/DiegoEsparza-Glitchme-thumbnail.jpg");
+  background-image: url("../images/gregior.png");
 }
 
 .background {
-  /*background-image: url("/images/DiegoEsparza-Glitchme-thumbnail.jpg");*/
+  background-image: url("/images/gregior.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -114,4 +114,13 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+div.color {
+  text-align: center;
+  color: darkviolet;
+}
+
+div.boarder {
+  border:2px solid dodgerblue;
 }
