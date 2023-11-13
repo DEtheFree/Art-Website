@@ -16,6 +16,16 @@ body {
   text-align: center;
 }
 
+.box {
+    color: darkviolet;
+    /*background-color: rgba(61, 26, 87, 0.8);*/
+    width: 100%;
+    margin-top:10px;
+    border:#d0dafb 10px solid;
+    background-image: url("../images/blueonyellow.jpg");
+    background-size: cover;
+  }
+
 h1 {
   padding: 20px 0px 10px 0px;
 }
@@ -118,22 +128,16 @@ li a:hover {
   background-color: #111;
 }
 
-div.color {
-  text-align: center;
-  color: darkviolet;
-}
-
-div.boarder {
-  border:2px solid dodgerblue;
-}
-
-/////
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+.mySlides{
+  display: none;
 }
 
 .active {
