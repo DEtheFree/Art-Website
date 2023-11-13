@@ -7,22 +7,65 @@
   </head>
   <body>
 
-       <ul>
-        <li><a href="art.html">Art</a></li>
-        <!--<li><a class="active" href="art.html">Home</a></li>
-        <li><a href="https://aboxofnegs.shutterfly.com/">Photography</a></li>-->
-        <li><a href="exhibitions.html">Exhibitions</a></li>
-        <li><a href="about.html">About</a></li>
-        </ul>
       <div class="portfolio-item">
         <div class="color">
-        <h1>Diego Esparza </h1>
+          <h1>Diego Esparza </h1>
         </div>
         <div class="boarder">
-        <p>(Website currently under Construction and New Management)</p>
-        <p>(Expected to be completed by January 2024)</p>
+          <p>(Website currently under Construction and New Management)</p>
+          <p>(Expected to be completed by January 2024)</p>
         </div>
       </div>
+
+       <ul>
+        <li><a href="art.html">Art</a></li>
+        <li><a href="exhibitions.html">Exhibitions</a></li>
+        <li><a href="about.html">About</a></li>
+       </ul>
+ 
+
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/IMG_patterns.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/IMG_monks.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/gregior.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+      </div>
+      
+      <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
 
      
 
