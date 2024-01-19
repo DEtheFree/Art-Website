@@ -56,11 +56,11 @@ div.gallery:hover {
 }
 
 div.center_container {
- width: 75vw; 
+ width: 75vw;
   /*veiw width*/
  margin-left: auto;
  margin-right: auto;
- text-align: center;
+ text-align: left;
 }
 
 div.gallery img {
@@ -72,7 +72,7 @@ div.desc {
 padding: 15px;
  text-align: center;
  background-color: white;
-} 
+}
 
 * {
 box-sizing: border-box;
@@ -151,7 +151,7 @@ li a:hover {
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -159,4 +159,3 @@ li a:hover {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-
