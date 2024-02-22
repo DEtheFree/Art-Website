@@ -51,8 +51,7 @@ img {
 }
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+
            /* float: left;*/
   width: 180px;
 }
@@ -87,10 +86,13 @@ box-sizing: border-box;
 }
 
 .responsive {
- padding: 0 6px;
+
+ margin-top: 5px;
 /*float: left; will make it break and go to the left outside it's container*/
  /*width: 24.99999%;*/
  display: flex;
+ flex-wrap: wrap; /*remove this to make images shrink instead of moving in coloums*/
+ gap: 5px;
 }
 
 @media only screen and (max-width: 700px) {
