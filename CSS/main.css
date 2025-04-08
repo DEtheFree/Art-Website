@@ -17,12 +17,12 @@ body {
 }
 
 .box {
-    color: darkviolet;
-    /*background-color: rgba(61, 26, 87, 0.8);*/
+    color: white;
+    background-color: rgba(61, 26, 87, 0.8);
     width: 100%;
     margin-top:10px;
     border:#d0dafb 10px solid;
-    background-image: url("../images/blueonyellow.jpg");
+    /*background-image: url("../images/blueonyellow.jpg");*/
     background-size: cover;
   }
 
